@@ -1,6 +1,6 @@
 def reverse_each_word(sent)
-  arr=sent.join(" ")
-  sent.collect do |word|
+  arr=sent.split(" ")
+  arr.collect do |word|
     word.reverse 
   end
 end
